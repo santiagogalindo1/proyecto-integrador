@@ -1,4 +1,4 @@
-from responsable import Responsable
+from project.responsable import Responsable
 
 class Proyecto:
     def __init__(self, id: int, nombre: str, tipo: str, ubicacion: str, responsable: Responsable,

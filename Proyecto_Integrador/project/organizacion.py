@@ -1,5 +1,5 @@
-from proyecto import Proyecto
-from responsable import Responsable
+from project.proyecto import Proyecto
+from project.responsable import Responsable
 
 class Organizacion:
     def __init__(self, nombre: str, responsable: Responsable):

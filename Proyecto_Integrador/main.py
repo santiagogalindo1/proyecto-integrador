@@ -1,6 +1,6 @@
-from responsable import Responsable
-from proyecto import Proyecto
-from organizacion import Organizacion
+from project.responsable import Responsable
+from project.proyecto import Proyecto
+from project.organizacion import Organizacion
 
 # Crear un responsable
 responsable_1 = Responsable("12345678", "Juan", "Pérez", "juan.perez@email.com", "123456789")
