@@ -79,13 +79,12 @@ class Organizacion:
         for proyecto in completados:
             print(f"ID: {proyecto.id}, Nombre: {proyecto.nombre}")
         return len(completados)
-    
+
 
     def mostrar_info(self):
+        print("-" * 40)
         print(f"Organización: {self.nombre}")
-        print("Responsable:")
-        self.responsable.mostrar_info()
-        print("Proyectos:")
+        print(" ")
         for proyecto in self.proyectos:
             proyecto.mostrar_info()
             print("-" * 40)

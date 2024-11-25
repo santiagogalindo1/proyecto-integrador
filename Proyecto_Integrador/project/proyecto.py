@@ -25,9 +25,9 @@ class Proyecto:
         return self.emisiones_reducidas + self.energia_generada
 
     def mostrar_info(self):
-        print(f"Proyecto {self.nombre} (ID: {self.id})")
+        print(f"Proyecto: {self.nombre} (ID: {self.id})")
         print(f"Tipo: {self.tipo}, Ubicación: {self.ubicacion}")
         print(f"Emisiones reducidas: {self.emisiones_reducidas}, Energía generada: {self.energia_generada}")
         print(f"Estado: {self.estado}")
-        print("Responsable:")
+        print
         self.responsable.mostrar_info()
